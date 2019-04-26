@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.2</Version>
+    <Company>Custom Dev</Company>
+    <Authors>François DORIN</Authors>
+    <RootNamespace>CustomDev</RootNamespace>
   </PropertyGroup>
 
 </Project>
