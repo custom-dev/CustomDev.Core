@@ -5,6 +5,16 @@ namespace CustomDev
 {
     public static class ExceptionExtension
     {
+        /// <summary>
+        /// Generate a full trace of an exception.
+        /// A full trace contains:
+        /// - the type of the exception
+        /// - the message of the exception
+        /// - the stack trace of the exception
+        /// - the same information for inner exceptions
+        /// </summary>
+        /// <param name="ex"></param>
+        /// <returns></returns>
         public static string ToFullTrace(this Exception ex)
         {
             StringBuilder builder = new StringBuilder();
